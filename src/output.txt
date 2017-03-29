@@ -1,0 +1,402 @@
+line = 1       text = 0                      number = NUMBER                 type =   SIGNED LONG           value = 0         
+line = 1       text = 1                      number = NUMBER                 type =   SIGNED LONG           value = 1         
+line = 1       text = 2                      number = NUMBER                 type =   SIGNED LONG           value = 2         
+line = 1       text = 3                      number = NUMBER                 type =   SIGNED LONG           value = 3         
+line = 1       text = 4                      number = NUMBER                 type =   SIGNED LONG           value = 4         
+line = 1       text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 1       text = 6                      number = NUMBER                 type =   SIGNED LONG           value = 6         
+line = 1       text = 7                      number = NUMBER                 type =   SIGNED LONG           value = 7         
+line = 1       text = 8                      number = NUMBER                 type =   SIGNED LONG           value = 8         
+line = 1       text = 9                      number = NUMBER                 type =   SIGNED LONG           value = 9         
+line = 2       text = 35                     number = NUMBER                 type =   SIGNED LONG           value = 35        
+line = 2       text = 99                     number = NUMBER                 type =   SIGNED LONG           value = 99        
+line = 2       text = 100                    number = NUMBER                 type =   SIGNED LONG           value = 100       
+line = 2       text = 101                    number = NUMBER                 type =   SIGNED LONG           value = 101       
+line = 2       text = 384                    number = NUMBER                 type =   SIGNED LONG           value = 384       
+line = 2       text = 2847                   number = NUMBER                 type =   SIGNED LONG           value = 2847      
+line = 2       text = 25325                  number = NUMBER                 type =   SIGNED LONG           value = 25325     
+line = 2       text = 32767                  number = NUMBER                 type =   SIGNED LONG           value = 32767     
+line = 3       text = 32768                  number = NUMBER                 type =   SIGNED LONG           value = 32768     
+line = 3       text = 65535                  number = NUMBER                 type =   SIGNED LONG           value = 65535     
+line = 3       text = 65536                  number = NUMBER                 type =   SIGNED LONG           value = 65536     
+line = 3       text = 120394857              number = NUMBER                 type =   SIGNED LONG           value = 120394857 
+line = 3       text = 2147483647             number = NUMBER                 type =   SIGNED LONG           value = 2147483647
+line = 4       text = 2147483648             number = NUMBER                 type = UNSIGNED LONG           value = 2147483648
+line = 4       text = 3249093841             number = NUMBER                 type = UNSIGNED LONG           value = 3249093841
+line = 4       text = 4294967295             number = NUMBER                 type = UNSIGNED LONG           value = 4294967295
+line = 5       text = 4294967296             number = NUMBER                 type = UNSIGNED LONG           value = 4294967296
+
+ ERROR:Overflow detected 
+line = 5       text = 12345678901234567890   number = NUMBER                 type = UNSIGNED LONG           value = 12345678901234567890
+
+ ERROR:Overflow detected 
+line = 7       text = 000                    number = NUMBER                 type =   SIGNED LONG           value = 0         
+line = 9       text = 39                     number = NUMBER                 type =   SIGNED LONG           value = 39        
+line = 9       text = th                        id = IDENTIFIER              name = th
+line = 11      text = a                         id = IDENTIFIER              name = a
+line = 11      text = b                         id = IDENTIFIER              name = b
+line = 11      text = c                         id = IDENTIFIER              name = c
+line = 11      text = d                         id = IDENTIFIER              name = d
+line = 11      text = e                         id = IDENTIFIER              name = e
+line = 11      text = f                         id = IDENTIFIER              name = f
+line = 11      text = g                         id = IDENTIFIER              name = g
+line = 11      text = h                         id = IDENTIFIER              name = h
+line = 11      text = i                         id = IDENTIFIER              name = i
+line = 11      text = j                         id = IDENTIFIER              name = j
+line = 11      text = k                         id = IDENTIFIER              name = k
+line = 11      text = l                         id = IDENTIFIER              name = l
+line = 11      text = m                         id = IDENTIFIER              name = m
+line = 11      text = n                         id = IDENTIFIER              name = n
+line = 11      text = o                         id = IDENTIFIER              name = o
+line = 11      text = p                         id = IDENTIFIER              name = p
+line = 11      text = q                         id = IDENTIFIER              name = q
+line = 11      text = r                         id = IDENTIFIER              name = r
+line = 11      text = s                         id = IDENTIFIER              name = s
+line = 11      text = t                         id = IDENTIFIER              name = t
+line = 11      text = u                         id = IDENTIFIER              name = u
+line = 11      text = v                         id = IDENTIFIER              name = v
+line = 11      text = w                         id = IDENTIFIER              name = w
+line = 11      text = x                         id = IDENTIFIER              name = x
+line = 11      text = y                         id = IDENTIFIER              name = y
+line = 11      text = z                         id = IDENTIFIER              name = z
+line = 12      text = A                         id = IDENTIFIER              name = A
+line = 12      text = B                         id = IDENTIFIER              name = B
+line = 12      text = C                         id = IDENTIFIER              name = C
+line = 12      text = D                         id = IDENTIFIER              name = D
+line = 12      text = E                         id = IDENTIFIER              name = E
+line = 12      text = F                         id = IDENTIFIER              name = F
+line = 12      text = G                         id = IDENTIFIER              name = G
+line = 12      text = H                         id = IDENTIFIER              name = H
+line = 12      text = I                         id = IDENTIFIER              name = I
+line = 12      text = J                         id = IDENTIFIER              name = J
+line = 12      text = K                         id = IDENTIFIER              name = K
+line = 12      text = L                         id = IDENTIFIER              name = L
+line = 12      text = M                         id = IDENTIFIER              name = M
+line = 12      text = N                         id = IDENTIFIER              name = N
+line = 12      text = O                         id = IDENTIFIER              name = O
+line = 12      text = P                         id = IDENTIFIER              name = P
+line = 12      text = Q                         id = IDENTIFIER              name = Q
+line = 12      text = R                         id = IDENTIFIER              name = R
+line = 12      text = S                         id = IDENTIFIER              name = S
+line = 12      text = T                         id = IDENTIFIER              name = T
+line = 12      text = U                         id = IDENTIFIER              name = U
+line = 12      text = V                         id = IDENTIFIER              name = V
+line = 12      text = W                         id = IDENTIFIER              name = W
+line = 12      text = X                         id = IDENTIFIER              name = X
+line = 12      text = Y                         id = IDENTIFIER              name = Y
+line = 12      text = Z                         id = IDENTIFIER              name = Z
+line = 13      text = user                      id = IDENTIFIER              name = user
+line = 13      text = _user                     id = IDENTIFIER              name = _user
+line = 13      text = user19                    id = IDENTIFIER              name = user19
+line = 13      text = user_28_username          id = IDENTIFIER              name = user_28_username
+line = 14      text = User                      id = IDENTIFIER              name = User
+line = 14      text = _USER                     id = IDENTIFIER              name = _USER
+line = 14      text = UsEr19                    id = IDENTIFIER              name = UsEr19
+line = 14      text = useR_20_UserName          id = IDENTIFIER              name = useR_20_UserName
+line = 16      text = break                  rsvwd = BREAK               
+line = 16      text = char                   rsvwd = CHAR                
+line = 16      text = continue               rsvwd = CONTINUE            
+line = 16      text = do                     rsvwd = DO                  
+line = 16      text = else                   rsvwd = ELSE                
+line = 16      text = for                    rsvwd = FOR                 
+line = 16      text = goto                   rsvwd = GOTO                
+line = 16      text = if                     rsvwd = IF                  
+line = 16      text = int                    rsvwd = INT                 
+line = 16      text = long                   rsvwd = LONG                
+line = 16      text = return                 rsvwd = RETURN              
+line = 16      text = short                  rsvwd = SHORT               
+line = 16      text = signed                 rsvwd = SIGNED              
+line = 16      text = unsigned               rsvwd = UNSIGNED            
+line = 16      text = void                   rsvwd = VOID                
+line = 16      text = while                  rsvwd = WHILE               
+line = 17      text = breakx                    id = IDENTIFIER              name = breakx
+line = 17      text = charx                     id = IDENTIFIER              name = charx
+line = 17      text = continuex                 id = IDENTIFIER              name = continuex
+line = 17      text = dox                       id = IDENTIFIER              name = dox
+line = 17      text = elsex                     id = IDENTIFIER              name = elsex
+line = 17      text = forx                      id = IDENTIFIER              name = forx
+line = 17      text = gotox                     id = IDENTIFIER              name = gotox
+line = 17      text = ifx                       id = IDENTIFIER              name = ifx
+line = 17      text = intx                      id = IDENTIFIER              name = intx
+line = 17      text = longx                     id = IDENTIFIER              name = longx
+line = 17      text = returnx                   id = IDENTIFIER              name = returnx
+line = 17      text = shortx                    id = IDENTIFIER              name = shortx
+line = 17      text = signedx                   id = IDENTIFIER              name = signedx
+line = 17      text = unsignedx                 id = IDENTIFIER              name = unsignedx
+line = 17      text = voidx                     id = IDENTIFIER              name = voidx
+line = 17      text = whilex                    id = IDENTIFIER              name = whilex
+line = 18      text = xbreak                    id = IDENTIFIER              name = xbreak
+line = 18      text = xchar                     id = IDENTIFIER              name = xchar
+line = 18      text = xcontinue                 id = IDENTIFIER              name = xcontinue
+line = 18      text = xdo                       id = IDENTIFIER              name = xdo
+line = 18      text = xelse                     id = IDENTIFIER              name = xelse
+line = 18      text = xfor                      id = IDENTIFIER              name = xfor
+line = 18      text = xgoto                     id = IDENTIFIER              name = xgoto
+line = 18      text = xif                       id = IDENTIFIER              name = xif
+line = 18      text = xint                      id = IDENTIFIER              name = xint
+line = 18      text = xlong                     id = IDENTIFIER              name = xlong
+line = 18      text = xreturn                   id = IDENTIFIER              name = xreturn
+line = 18      text = xshort                    id = IDENTIFIER              name = xshort
+line = 18      text = xsigned                   id = IDENTIFIER              name = xsigned
+line = 18      text = xunsigned                 id = IDENTIFIER              name = xunsigned
+line = 18      text = xvoid                     id = IDENTIFIER              name = xvoid
+line = 18      text = xwhile                    id = IDENTIFIER              name = xwhile
+line = 19      text = break5                    id = IDENTIFIER              name = break5
+line = 19      text = char5                     id = IDENTIFIER              name = char5
+line = 19      text = continue5                 id = IDENTIFIER              name = continue5
+line = 19      text = do5                       id = IDENTIFIER              name = do5
+line = 19      text = else5                     id = IDENTIFIER              name = else5
+line = 19      text = for5                      id = IDENTIFIER              name = for5
+line = 19      text = goto5                     id = IDENTIFIER              name = goto5
+line = 19      text = if5                       id = IDENTIFIER              name = if5
+line = 19      text = int5                      id = IDENTIFIER              name = int5
+line = 19      text = long5                     id = IDENTIFIER              name = long5
+line = 19      text = return5                   id = IDENTIFIER              name = return5
+line = 19      text = short5                    id = IDENTIFIER              name = short5
+line = 19      text = signed5                   id = IDENTIFIER              name = signed5
+line = 19      text = unsigned5                 id = IDENTIFIER              name = unsigned5
+line = 19      text = void5                     id = IDENTIFIER              name = void5
+line = 19      text = while5                    id = IDENTIFIER              name = while5
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = break                  rsvwd = BREAK               
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = char                   rsvwd = CHAR                
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = continue               rsvwd = CONTINUE            
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = do                     rsvwd = DO                  
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = else                   rsvwd = ELSE                
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = for                    rsvwd = FOR                 
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = goto                   rsvwd = GOTO                
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = if                     rsvwd = IF                  
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = int                    rsvwd = INT                 
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = long                   rsvwd = LONG                
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = return                 rsvwd = RETURN              
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = short                  rsvwd = SHORT               
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = signed                 rsvwd = SIGNED              
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = unsigned               rsvwd = UNSIGNED            
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = void                   rsvwd = VOID                
+line = 20      text = 5                      number = NUMBER                 type =   SIGNED LONG           value = 5         
+line = 20      text = while                  rsvwd = WHILE               
+line = 27      text = a                         id = IDENTIFIER              name = a
+line = 27      text = bc                        id = IDENTIFIER              name = bc
+line = 29      text = !                         op = EXCLAMATION         
+line = 29      text = %                         op = PERCENT             
+line = 29      text = ^                      error = ERROR               
+line = 29      text = &                         op = AMPERSAND           
+line = 29      text = *                         op = ASTERISK            
+line = 29      text = -                         op = MINUS               
+line = 29      text = +                         op = PLUS                
+line = 29      text = =                         op = EQUAL               
+line = 29      text = ~                      error = ERROR               
+line = 29      text = |                         op = VBAR                
+line = 29      text = <                         op = LESS                
+line = 29      text = >                         op = GREATER             
+line = 29      text = /                         op = SLASH               
+line = 29      text = ?                         op = QUESTION            
+line = 30      text = +=                        op = PLUS_EQUAL          
+line = 30      text = -=                        op = MINUS_EQUAL         
+line = 30      text = *=                        op = ASTERISK_EQUAL      
+line = 30      text = /=                        op = SLASH_EQUAL         
+line = 30      text = <<=                       op = LESS_LESS_EQUAL     
+line = 30      text = >>=                       op = GREATER_GREATER_EQUAL
+line = 30      text = &=                        op = AMPERSAND_EQUAL     
+line = 30      text = ^=                        op = CARET_EQUAL         
+line = 30      text = |=                        op = VBAR_EQUAL          
+line = 31      text = +                         op = PLUS                
+line = 31      text = +                         op = PLUS                
+line = 31      text = -                         op = MINUS               
+line = 31      text = -                         op = MINUS               
+line = 31      text = <<                        op = LESS_LESS           
+line = 31      text = >>                        op = GREATER_GREATER     
+line = 31      text = <=                        op = LESS_EQUAL          
+line = 31      text = >=                        op = GREATER_EQUAL       
+line = 31      text = ==                        op = EQUAL_EQUAL         
+line = 31      text = !=                        op = EXCLAMATION_EQUAL   
+line = 31      text = &&                        op = AMPERSAND_AMPERSAND 
+line = 31      text = ||                        op = VBAR_VBAR           
+line = 33      text = (                         op = LEFT_PAREN          
+line = 33      text = )                         op = RIGHT_PAREN         
+line = 33      text = [                         op = LEFT_SQUARE         
+line = 33      text = ]                         op = RIGHT_SQUARE        
+line = 33      text = {                         op = LEFT_CURLY          
+line = 33      text = }                         op = RIGHT_CURLY         
+line = 33      text = ,                         op = COMMA               
+line = 33      text = ;                         op = SEMICOLON           
+line = 33      text = :                         op = COLON               
+line = 35      text = "                      string = STRING                  length = 2, string = [97 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [98 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [99 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [100 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [101 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [102 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [103 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [104 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [105 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [106 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [107 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [108 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [109 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [110 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [111 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [112 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [113 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [114 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [115 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [116 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [117 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [118 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [119 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [120 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [121 0 ]
+line = 35      text = "                      string = STRING                  length = 2, string = [122 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [65 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [66 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [67 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [68 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [69 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [70 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [71 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [72 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [73 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [74 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [75 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [76 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [77 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [78 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [79 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [80 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [81 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [82 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [83 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [84 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [85 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [86 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [87 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [88 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [89 0 ]
+line = 36      text = "                      string = STRING                  length = 2, string = [90 0 ]
+line = 38      text = "                      string = STRING                  length = 2, string = [36 0 ]
+line = 38      text = "                      string = STRING                  length = 2, string = [64 0 ]
+line = 38      text = "                      string = STRING                  length = 2, string = [96 0 ]
+line = 40      text = "                      string = STRING                  length = 1, string = [0 ]
+line = 40      text = "                      string = STRING                  length = 2, string = [97 0 ]
+line = 40      text = "                      string = STRING                  length = 3, string = [97 98 0 ]
+line = 40      text = "                      string = STRING                  length = 4, string = [97 98 99 0 ]
+line = 40      text = "                      string = STRING                  length = 27, string = [97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [10 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [9 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [8 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [13 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [12 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [11 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [92 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [39 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [34 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [7 0 ]
+line = 42      text = "                      string = STRING                  length = 3, string = [63 63 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [0 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [33 0 ]
+line = 42      text = "                      string = STRING                  length = 2, string = [65 0 ]
+line = 43      text = "                      string = STRING                  length = 7, string = [98 108 97 63 103 104 0 ]
+line = 43      text = "                      string = STRING                  length = 7, string = [115 116 114 105 110 103 0 ]
+line = 44      text = "                      string = STRING                  length = 2, string = [13 0 ]
+line = 44      text = "                      string = STRING                  length = 7, string = [115 116 114 105 110 103 0 ]
+line = 45      text = "                      string = STRING                  length = 3, string = [33 103 0 ]
+line = 45      text = "                      string = STRING                  length = 7, string = [115 116 114 105 110 103 0 ]
+line = 46      text = "                      string = STRING                  length = 33, string = [116 104 105 115 32 115 116 114 105 110 103 32 115 104 111 117 108 100 32 110 111 116 0 116 101 114 109 105 110 97 116 101 0 ]
+line = 48      text = 'a'                    number = NUMBER                 type =   SIGNED LONG           value = 97        
+line = 48      text = 'b'                    number = NUMBER                 type =   SIGNED LONG           value = 98        
+line = 48      text = 'c'                    number = NUMBER                 type =   SIGNED LONG           value = 99        
+line = 48      text = 'd'                    number = NUMBER                 type =   SIGNED LONG           value = 100       
+line = 48      text = 'e'                    number = NUMBER                 type =   SIGNED LONG           value = 101       
+line = 48      text = 'f'                    number = NUMBER                 type =   SIGNED LONG           value = 102       
+line = 48      text = 'g'                    number = NUMBER                 type =   SIGNED LONG           value = 103       
+line = 48      text = 'h'                    number = NUMBER                 type =   SIGNED LONG           value = 104       
+line = 48      text = 'i'                    number = NUMBER                 type =   SIGNED LONG           value = 105       
+line = 48      text = 'j'                    number = NUMBER                 type =   SIGNED LONG           value = 106       
+line = 48      text = 'k'                    number = NUMBER                 type =   SIGNED LONG           value = 107       
+line = 48      text = 'l'                    number = NUMBER                 type =   SIGNED LONG           value = 108       
+line = 48      text = 'm'                    number = NUMBER                 type =   SIGNED LONG           value = 109       
+line = 48      text = 'n'                    number = NUMBER                 type =   SIGNED LONG           value = 110       
+line = 48      text = 'o'                    number = NUMBER                 type =   SIGNED LONG           value = 111       
+line = 48      text = 'p'                    number = NUMBER                 type =   SIGNED LONG           value = 112       
+line = 48      text = 'q'                    number = NUMBER                 type =   SIGNED LONG           value = 113       
+line = 48      text = 'r'                    number = NUMBER                 type =   SIGNED LONG           value = 114       
+line = 48      text = 's'                    number = NUMBER                 type =   SIGNED LONG           value = 115       
+line = 48      text = 't'                    number = NUMBER                 type =   SIGNED LONG           value = 116       
+line = 48      text = 'u'                    number = NUMBER                 type =   SIGNED LONG           value = 117       
+line = 48      text = 'v'                    number = NUMBER                 type =   SIGNED LONG           value = 118       
+line = 48      text = 'w'                    number = NUMBER                 type =   SIGNED LONG           value = 119       
+line = 48      text = 'x'                    number = NUMBER                 type =   SIGNED LONG           value = 120       
+line = 48      text = 'y'                    number = NUMBER                 type =   SIGNED LONG           value = 121       
+line = 48      text = 'z'                    number = NUMBER                 type =   SIGNED LONG           value = 122       
+line = 49      text = 'A'                    number = NUMBER                 type =   SIGNED LONG           value = 65        
+line = 49      text = 'B'                    number = NUMBER                 type =   SIGNED LONG           value = 66        
+line = 49      text = 'C'                    number = NUMBER                 type =   SIGNED LONG           value = 67        
+line = 49      text = 'D'                    number = NUMBER                 type =   SIGNED LONG           value = 68        
+line = 49      text = 'E'                    number = NUMBER                 type =   SIGNED LONG           value = 69        
+line = 49      text = 'F'                    number = NUMBER                 type =   SIGNED LONG           value = 70        
+line = 49      text = 'G'                    number = NUMBER                 type =   SIGNED LONG           value = 71        
+line = 49      text = 'H'                    number = NUMBER                 type =   SIGNED LONG           value = 72        
+line = 49      text = 'I'                    number = NUMBER                 type =   SIGNED LONG           value = 73        
+line = 49      text = 'J'                    number = NUMBER                 type =   SIGNED LONG           value = 74        
+line = 49      text = 'K'                    number = NUMBER                 type =   SIGNED LONG           value = 75        
+line = 49      text = 'L'                    number = NUMBER                 type =   SIGNED LONG           value = 76        
+line = 49      text = 'M'                    number = NUMBER                 type =   SIGNED LONG           value = 77        
+line = 49      text = 'N'                    number = NUMBER                 type =   SIGNED LONG           value = 78        
+line = 49      text = 'O'                    number = NUMBER                 type =   SIGNED LONG           value = 79        
+line = 49      text = 'P'                    number = NUMBER                 type =   SIGNED LONG           value = 80        
+line = 49      text = 'Q'                    number = NUMBER                 type =   SIGNED LONG           value = 81        
+line = 49      text = 'R'                    number = NUMBER                 type =   SIGNED LONG           value = 82        
+line = 49      text = 'S'                    number = NUMBER                 type =   SIGNED LONG           value = 83        
+line = 49      text = 'T'                    number = NUMBER                 type =   SIGNED LONG           value = 84        
+line = 49      text = 'U'                    number = NUMBER                 type =   SIGNED LONG           value = 85        
+line = 49      text = 'V'                    number = NUMBER                 type =   SIGNED LONG           value = 86        
+line = 49      text = 'W'                    number = NUMBER                 type =   SIGNED LONG           value = 87        
+line = 49      text = 'X'                    number = NUMBER                 type =   SIGNED LONG           value = 88        
+line = 49      text = 'Y'                    number = NUMBER                 type =   SIGNED LONG           value = 89        
+line = 49      text = 'Z'                    number = NUMBER                 type =   SIGNED LONG           value = 90        
+line = 51      text = '$'                    number = NUMBER                 type =   SIGNED LONG           value = 36        
+line = 51      text = '@'                    number = NUMBER                 type =   SIGNED LONG           value = 64        
+line = 51      text = '`'                    number = NUMBER                 type =   SIGNED LONG           value = 96        
+line = 53      text = ''                     error = ERROR               
+line = 54      text = 'ab'                   error = ERROR               
+line = 56      text = '\n'                   number = NUMBER                 type =   SIGNED LONG           value = 10        
+line = 56      text = '\t'                   number = NUMBER                 type =   SIGNED LONG           value = 9         
+line = 56      text = '\b'                   number = NUMBER                 type =   SIGNED LONG           value = 8         
+line = 56      text = '\r'                   number = NUMBER                 type =   SIGNED LONG           value = 13        
+line = 56      text = '\f'                   number = NUMBER                 type =   SIGNED LONG           value = 12        
+line = 56      text = '\v'                   number = NUMBER                 type =   SIGNED LONG           value = 11        
+line = 56      text = '\\'                   number = NUMBER                 type =   SIGNED LONG           value = 92        
+line = 56      text = '\''                   number = NUMBER                 type =   SIGNED LONG           value = 39        
+line = 56      text = '\"'                   number = NUMBER                 type =   SIGNED LONG           value = 34        
+line = 56      text = '\a'                   number = NUMBER                 type =   SIGNED LONG           value = 7         
+line = 56      text = '\?'                   number = NUMBER                 type =   SIGNED LONG           value = 63        
+line = 56      text = '\0'                   number = NUMBER                 type =   SIGNED LONG           value = 0         
+line = 56      text = '\41'                  number = NUMBER                 type =   SIGNED LONG           value = 33        
+line = 56      text = '\101'                 number = NUMBER                 type =   SIGNED LONG           value = 65        
+line = 57      text = '\0'                   number = NUMBER                 type =   SIGNED LONG           value = 0         
+line = 57      text = '\72'                  number = NUMBER                 type =   SIGNED LONG           value = 58        
+line = 57      text = '\137'                 number = NUMBER                 type =   SIGNED LONG           value = 95        
+line = 57      text = '\377'                 number = NUMBER                 type =   SIGNED LONG           value = 255       
+line = 58      text = '\777'                 error = ERROR               
+line = 59      text = '\g'                   error = ERROR               
+line = 61      text = /                         op = SLASH               
+line = 61      text = *                         op = ASTERISK            
+line = 61      text = */                     error = ERROR               
+line = 62      text = */                     error = ERROR               
+line = 63      text = */                     error = ERROR               
+line = 64      text =                        error = ERROR               
+Scanner encountered 10 errors.

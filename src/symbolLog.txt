@@ -1,0 +1,159 @@
+================= SYMBOLS ================
+symbol table:
+  variable: print_int $ 0x1b50520
+  variable: print_string $ 0x1b50710
+  variable: read_int $ 0x1b508c0
+  variable: read_string $ 0x1b50b50
+  variable: exit $ 0x1b50d40
+  variable: optimization_demo $ 0x1b50ef0
+  variable: auto_casting_demo $ 0x1b510e0
+  variable: strcpy $ 0x1b513b0
+  variable: factorial $ 0x1b51520
+  variable: main $ 0x1b516d0
+
+=============== PARSE TREE ===============
+(((VOID )print_int$1b50520(((SIGNED LONG INT )integer$0)));
+)
+(((VOID )print_string$1b50710(((SIGNED CHAR )( *string$0))));
+)
+(((SIGNED LONG INT )read_int$1b508c0(((VOID ))));
+)
+(((VOID )read_string$1b50b50(((SIGNED LONG INT )length$0),(((SIGNED CHAR )( *buffer$0)))));
+)
+(((VOID )exit$1b50d40(((VOID ))));
+)
+(((VOID )optimization_demo$1b50ef0(((SIGNED LONG INT )n$0)));
+)
+(((VOID )auto_casting_demo$1b510e0(((VOID ))));
+)
+(((SIGNED CHAR )( *strcpy$1b513b0(((SIGNED CHAR )( *src$0)),(((SIGNED CHAR )( *dest$0))))));
+)
+(((SIGNED LONG INT )factorial$1b51520(((SIGNED LONG INT )n$0)));
+)
+((SIGNED LONG INT )main$1b516d0(((VOID )))
+   /*-----------Function Table-----
+
+   -----Type-----
+symbol table:
+  variable: prompt $ 0x1b51760
+  variable: f $ 0x1b517b0
+  variable: n $ 0x1b51800
+
+   -----Label-----
+symbol table:
+
+   ------Table ends-------*/
+{
+(((SIGNED CHAR )(prompt$1b51760[80]));
+;
+((SIGNED LONG INT )(n$1b51800),(f$1b517b0));
+;
+(strcpy$1b513b0(prompt$1b51760,STRING(70 97 99 116 111 114 105 97 108 32 111 102 32 0 )));
+(print_string$1b50710(prompt$1b51760));
+(n$1b51800 = (read_int$1b508c0((VOID ))));
+(strcpy$1b513b0(prompt$1b51760,STRING(32 101 113 117 97 108 115 32 0 )));
+(print_string$1b50710(prompt$1b51760));
+(f$1b517b0 = (factorial$1b51520(n$1b51800)));
+(print_int$1b50520(f$1b517b0));
+(strcpy$1b513b0(prompt$1b51760,STRING(10 0 )));
+(print_string$1b50710(prompt$1b51760));
+(auto_casting_demo$1b510e0((VOID )));
+RETURN (0);
+)
+})
+((SIGNED CHAR )( *strcpy$1b513b0(((SIGNED CHAR )( *src$1b51ac0)),(((SIGNED CHAR )( *dest$1b51a20)))))
+   /*-----------Function Table-----
+
+   -----Type-----
+symbol table:
+  variable: dest $ 0x1b51a20
+  variable: src $ 0x1b51ac0
+  variable: initial_dest $ 0x1b51bb0
+
+   -----Label-----
+symbol table:
+
+   ------Table ends-------*/
+{
+(((SIGNED CHAR )( *initial_dest$1b51bb0));
+;
+(initial_dest$1b51bb0 = dest$1b51a20);
+DO {
+(((* (dest$1b51a20 ++)) = (* src$1b51ac0));
+)
+   /*------Compound symbol Table------
+symbol table:
+
+  -----Symbol Table ends-----*/
+} WHILE(((* (src$1b51ac0 ++)) != 0))
+;
+RETURN (initial_dest$1b51bb0);
+)
+})
+((SIGNED LONG INT )factorial$1b51520(((SIGNED LONG INT )n$1b51d00))
+   /*-----------Function Table-----
+
+   -----Type-----
+symbol table:
+  variable: n $ 0x1b51d00
+
+   -----Label-----
+symbol table:
+
+   ------Table ends-------*/
+{
+(IF((n$1b51d00 <= 1)){
+RETURN (1)} ELSE {
+RETURN ((n$1b51d00 * (factorial$1b51520((n$1b51d00 - 1)))))};
+)
+})
+((VOID )optimization_demo$1b50ef0(((SIGNED LONG INT )n$1b51eb0))
+   /*-----------Function Table-----
+
+   -----Type-----
+symbol table:
+  variable: n $ 0x1b51eb0
+  variable: m $ 0x1b51f60
+
+   -----Label-----
+symbol table:
+
+   ------Table ends-------*/
+{
+(((SIGNED LONG INT )m$1b51f60);
+;
+(m$1b51f60 = ((10 + 20) - (40 / 50)));
+((30 + 50) + 60);
+)
+})
+((VOID )auto_casting_demo$1b510e0(((VOID )))
+   /*-----------Function Table-----
+
+   -----Type-----
+symbol table:
+  variable: p $ 0x1b52150
+  variable: m $ 0x1b521a0
+  variable: k $ 0x1b521f0
+
+   -----Label-----
+symbol table:
+
+   ------Table ends-------*/
+{
+(((SIGNED LONG INT )p$1b52150);
+;
+((SIGNED SHORT INT )m$1b521a0);
+;
+((SIGNED CHAR )k$1b521f0);
+;
+(p$1b52150 = 10);
+(m$1b521a0 = p$1b52150);
+(k$1b521f0 = m$1b521a0);
+(print_string$1b50710(STRING(10 32 73 110 116 32 118 97 108 117 101 32 115 116 111 114 101 100 58 0 )));
+(print_int$1b50520(p$1b52150));
+(print_string$1b50710(STRING(10 32 115 104 111 114 116 32 118 97 108 117 101 32 115 116 111 114 101 100 58 0 )));
+(print_int$1b50520(m$1b521a0));
+(print_string$1b50710(STRING(10 32 67 104 97 114 32 118 97 108 117 101 32 115 116 111 114 101 100 58 32 0 )));
+(print_int$1b50520(k$1b521f0));
+)
+})

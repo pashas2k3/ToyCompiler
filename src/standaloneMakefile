@@ -1,0 +1,31 @@
+CC = gcc
+CFLAGS += -g -Wall -Wextra -pedantic
+
+CXX = g++
+CXXFLAGS +=
+
+LEX = flex
+LEXFLAGS += --header-file=scanner.h
+
+# Flags passed to the preprocessor.
+CPPFLAGS += -I$(GTEST_DIR)/include
+
+# Flags passed to the C++ compiler.
+CXXFLAGS += -g -Wall -Wextra
+
+LDLIBS += -ll -ly
+LDFLAGS =
+
+EXECS = scanner
+# For standalone scanner make sure you set the PARSER to 0 and DEBUG to 1 in scanner.lex
+all: $(EXECS)
+
+clean :
+	rm -f $(EXECS) *.o lex.yy.c
+
+%.c : %.lex
+	$(LEX) $(LEXFLAGS) -o $@ $<
+scanner.o : scanner.c
+scanner: scanner.o
+	$(CC) -o $@ $(LDFLAGS) $^ $(LDLIBS)
+

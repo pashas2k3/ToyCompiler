@@ -1,0 +1,307 @@
+line = 2       text = void                   rsvwd = VOID                
+line = 2       text = print_int                 id = IDENTIFIER              name = print_int
+line = 2       text = (                         op = LEFT_PAREN          
+line = 2       text = int                    rsvwd = INT                 
+line = 2       text = integer                   id = IDENTIFIER              name = integer
+line = 2       text = )                         op = RIGHT_PAREN         
+line = 2       text = ;                         op = SEMICOLON           
+line = 3       text = void                   rsvwd = VOID                
+line = 3       text = print_string              id = IDENTIFIER              name = print_string
+line = 3       text = (                         op = LEFT_PAREN          
+line = 3       text = char                   rsvwd = CHAR                
+line = 3       text = *                         op = ASTERISK            
+line = 3       text = string                    id = IDENTIFIER              name = string
+line = 3       text = )                         op = RIGHT_PAREN         
+line = 3       text = ;                         op = SEMICOLON           
+line = 4       text = int                    rsvwd = INT                 
+line = 4       text = read_int                  id = IDENTIFIER              name = read_int
+line = 4       text = (                         op = LEFT_PAREN          
+line = 4       text = void                   rsvwd = VOID                
+line = 4       text = )                         op = RIGHT_PAREN         
+line = 4       text = ;                         op = SEMICOLON           
+line = 5       text = void                   rsvwd = VOID                
+line = 5       text = read_string               id = IDENTIFIER              name = read_string
+line = 5       text = (                         op = LEFT_PAREN          
+line = 5       text = char                   rsvwd = CHAR                
+line = 5       text = *                         op = ASTERISK            
+line = 5       text = buffer                    id = IDENTIFIER              name = buffer
+line = 5       text = ,                         op = COMMA               
+line = 5       text = int                    rsvwd = INT                 
+line = 5       text = length                    id = IDENTIFIER              name = length
+line = 5       text = )                         op = RIGHT_PAREN         
+line = 5       text = ;                         op = SEMICOLON           
+line = 6       text = void                   rsvwd = VOID                
+line = 6       text = exit                      id = IDENTIFIER              name = exit
+line = 6       text = (                         op = LEFT_PAREN          
+line = 6       text = void                   rsvwd = VOID                
+line = 6       text = )                         op = RIGHT_PAREN         
+line = 6       text = ;                         op = SEMICOLON           
+line = 8       text = void                   rsvwd = VOID                
+line = 8       text = optimization_demo         id = IDENTIFIER              name = optimization_demo
+line = 8       text = (                         op = LEFT_PAREN          
+line = 8       text = int                    rsvwd = INT                 
+line = 8       text = n                         id = IDENTIFIER              name = n
+line = 8       text = )                         op = RIGHT_PAREN         
+line = 8       text = ;                         op = SEMICOLON           
+line = 9       text = void                   rsvwd = VOID                
+line = 9       text = auto_casting_demo         id = IDENTIFIER              name = auto_casting_demo
+line = 9       text = (                         op = LEFT_PAREN          
+line = 9       text = void                   rsvwd = VOID                
+line = 9       text = )                         op = RIGHT_PAREN         
+line = 9       text = ;                         op = SEMICOLON           
+line = 11      text = char                   rsvwd = CHAR                
+line = 11      text = *                         op = ASTERISK            
+line = 11      text = strcpy                    id = IDENTIFIER              name = strcpy
+line = 11      text = (                         op = LEFT_PAREN          
+line = 11      text = char                   rsvwd = CHAR                
+line = 11      text = *                         op = ASTERISK            
+line = 11      text = dest                      id = IDENTIFIER              name = dest
+line = 11      text = ,                         op = COMMA               
+line = 11      text = char                   rsvwd = CHAR                
+line = 11      text = *                         op = ASTERISK            
+line = 11      text = src                       id = IDENTIFIER              name = src
+line = 11      text = )                         op = RIGHT_PAREN         
+line = 11      text = ;                         op = SEMICOLON           
+line = 12      text = int                    rsvwd = INT                 
+line = 12      text = factorial                 id = IDENTIFIER              name = factorial
+line = 12      text = (                         op = LEFT_PAREN          
+line = 12      text = int                    rsvwd = INT                 
+line = 12      text = n                         id = IDENTIFIER              name = n
+line = 12      text = )                         op = RIGHT_PAREN         
+line = 12      text = ;                         op = SEMICOLON           
+line = 14      text = int                    rsvwd = INT                 
+line = 14      text = main                      id = IDENTIFIER              name = main
+line = 14      text = (                         op = LEFT_PAREN          
+line = 14      text = void                   rsvwd = VOID                
+line = 14      text = )                         op = RIGHT_PAREN         
+line = 14      text = {                         op = LEFT_CURLY          
+line = 15      text = char                   rsvwd = CHAR                
+line = 15      text = prompt                    id = IDENTIFIER              name = prompt
+line = 15      text = [                         op = LEFT_SQUARE         
+line = 15      text = 80                     number = NUMBER                 type =   SIGNED LONG           value = 80        
+line = 15      text = ]                         op = RIGHT_SQUARE        
+line = 15      text = ;                         op = SEMICOLON           
+line = 16      text = int                    rsvwd = INT                 
+line = 16      text = n                         id = IDENTIFIER              name = n
+line = 16      text = ,                         op = COMMA               
+line = 16      text = f                         id = IDENTIFIER              name = f
+line = 16      text = ;                         op = SEMICOLON           
+line = 18      text = strcpy                    id = IDENTIFIER              name = strcpy
+line = 18      text = (                         op = LEFT_PAREN          
+line = 18      text = prompt                    id = IDENTIFIER              name = prompt
+line = 18      text = ,                         op = COMMA               
+line = 18      text = "                      string = STRING                  length = 14, string = [70 97 99 116 111 114 105 97 108 32 111 102 32 0 ]
+line = 18      text = )                         op = RIGHT_PAREN         
+line = 18      text = ;                         op = SEMICOLON           
+line = 19      text = print_string              id = IDENTIFIER              name = print_string
+line = 19      text = (                         op = LEFT_PAREN          
+line = 19      text = prompt                    id = IDENTIFIER              name = prompt
+line = 19      text = )                         op = RIGHT_PAREN         
+line = 19      text = ;                         op = SEMICOLON           
+line = 21      text = n                         id = IDENTIFIER              name = n
+line = 21      text = =                         op = EQUAL               
+line = 21      text = read_int                  id = IDENTIFIER              name = read_int
+line = 21      text = (                         op = LEFT_PAREN          
+line = 21      text = )                         op = RIGHT_PAREN         
+line = 21      text = ;                         op = SEMICOLON           
+line = 22      text = strcpy                    id = IDENTIFIER              name = strcpy
+line = 22      text = (                         op = LEFT_PAREN          
+line = 22      text = prompt                    id = IDENTIFIER              name = prompt
+line = 22      text = ,                         op = COMMA               
+line = 22      text = "                      string = STRING                  length = 9, string = [32 101 113 117 97 108 115 32 0 ]
+line = 22      text = )                         op = RIGHT_PAREN         
+line = 22      text = ;                         op = SEMICOLON           
+line = 23      text = print_string              id = IDENTIFIER              name = print_string
+line = 23      text = (                         op = LEFT_PAREN          
+line = 23      text = prompt                    id = IDENTIFIER              name = prompt
+line = 23      text = )                         op = RIGHT_PAREN         
+line = 23      text = ;                         op = SEMICOLON           
+line = 25      text = f                         id = IDENTIFIER              name = f
+line = 25      text = =                         op = EQUAL               
+line = 25      text = factorial                 id = IDENTIFIER              name = factorial
+line = 25      text = (                         op = LEFT_PAREN          
+line = 25      text = n                         id = IDENTIFIER              name = n
+line = 25      text = )                         op = RIGHT_PAREN         
+line = 25      text = ;                         op = SEMICOLON           
+line = 27      text = print_int                 id = IDENTIFIER              name = print_int
+line = 27      text = (                         op = LEFT_PAREN          
+line = 27      text = f                         id = IDENTIFIER              name = f
+line = 27      text = )                         op = RIGHT_PAREN         
+line = 27      text = ;                         op = SEMICOLON           
+line = 29      text = strcpy                    id = IDENTIFIER              name = strcpy
+line = 29      text = (                         op = LEFT_PAREN          
+line = 29      text = prompt                    id = IDENTIFIER              name = prompt
+line = 29      text = ,                         op = COMMA               
+line = 29      text = "                      string = STRING                  length = 2, string = [10 0 ]
+line = 29      text = )                         op = RIGHT_PAREN         
+line = 29      text = ;                         op = SEMICOLON           
+line = 30      text = print_string              id = IDENTIFIER              name = print_string
+line = 30      text = (                         op = LEFT_PAREN          
+line = 30      text = prompt                    id = IDENTIFIER              name = prompt
+line = 30      text = )                         op = RIGHT_PAREN         
+line = 30      text = ;                         op = SEMICOLON           
+line = 32      text = auto_casting_demo         id = IDENTIFIER              name = auto_casting_demo
+line = 32      text = (                         op = LEFT_PAREN          
+line = 32      text = )                         op = RIGHT_PAREN         
+line = 32      text = ;                         op = SEMICOLON           
+line = 34      text = return                 rsvwd = RETURN              
+line = 34      text = 0                      number = NUMBER                 type =   SIGNED LONG           value = 0         
+line = 34      text = ;                         op = SEMICOLON           
+line = 35      text = }                         op = RIGHT_CURLY         
+line = 37      text = char                   rsvwd = CHAR                
+line = 37      text = *                         op = ASTERISK            
+line = 37      text = strcpy                    id = IDENTIFIER              name = strcpy
+line = 37      text = (                         op = LEFT_PAREN          
+line = 37      text = char                   rsvwd = CHAR                
+line = 37      text = *                         op = ASTERISK            
+line = 37      text = dest                      id = IDENTIFIER              name = dest
+line = 37      text = ,                         op = COMMA               
+line = 37      text = char                   rsvwd = CHAR                
+line = 37      text = *                         op = ASTERISK            
+line = 37      text = src                       id = IDENTIFIER              name = src
+line = 37      text = )                         op = RIGHT_PAREN         
+line = 37      text = {                         op = LEFT_CURLY          
+line = 38      text = char                   rsvwd = CHAR                
+line = 38      text = *                         op = ASTERISK            
+line = 38      text = initial_dest              id = IDENTIFIER              name = initial_dest
+line = 38      text = ;                         op = SEMICOLON           
+line = 39      text = initial_dest              id = IDENTIFIER              name = initial_dest
+line = 39      text = =                         op = EQUAL               
+line = 39      text = dest                      id = IDENTIFIER              name = dest
+line = 39      text = ;                         op = SEMICOLON           
+line = 40      text = do                     rsvwd = DO                  
+line = 40      text = {                         op = LEFT_CURLY          
+line = 41      text = *                         op = ASTERISK            
+line = 41      text = dest                      id = IDENTIFIER              name = dest
+line = 41      text = ++                        op = PLUS_PLUS           
+line = 41      text = =                         op = EQUAL               
+line = 41      text = *                         op = ASTERISK            
+line = 41      text = src                       id = IDENTIFIER              name = src
+line = 41      text = ;                         op = SEMICOLON           
+line = 42      text = }                         op = RIGHT_CURLY         
+line = 42      text = while                  rsvwd = WHILE               
+line = 42      text = (                         op = LEFT_PAREN          
+line = 42      text = *                         op = ASTERISK            
+line = 42      text = src                       id = IDENTIFIER              name = src
+line = 42      text = ++                        op = PLUS_PLUS           
+line = 42      text = !=                        op = EXCLAMATION_EQUAL   
+line = 42      text = 0                      number = NUMBER                 type =   SIGNED LONG           value = 0         
+line = 42      text = )                         op = RIGHT_PAREN         
+line = 42      text = ;                         op = SEMICOLON           
+line = 43      text = return                 rsvwd = RETURN              
+line = 43      text = initial_dest              id = IDENTIFIER              name = initial_dest
+line = 43      text = ;                         op = SEMICOLON           
+line = 44      text = }                         op = RIGHT_CURLY         
+line = 46      text = int                    rsvwd = INT                 
+line = 46      text = factorial                 id = IDENTIFIER              name = factorial
+line = 46      text = (                         op = LEFT_PAREN          
+line = 46      text = int                    rsvwd = INT                 
+line = 46      text = n                         id = IDENTIFIER              name = n
+line = 46      text = )                         op = RIGHT_PAREN         
+line = 46      text = {                         op = LEFT_CURLY          
+line = 47      text = if                     rsvwd = IF                  
+line = 47      text = (                         op = LEFT_PAREN          
+line = 47      text = n                         id = IDENTIFIER              name = n
+line = 47      text = <=                        op = LESS_EQUAL          
+line = 47      text = 1                      number = NUMBER                 type =   SIGNED LONG           value = 1         
+line = 47      text = )                         op = RIGHT_PAREN         
+line = 48      text = return                 rsvwd = RETURN              
+line = 48      text = 1                      number = NUMBER                 type =   SIGNED LONG           value = 1         
+line = 48      text = ;                         op = SEMICOLON           
+line = 49      text = else                   rsvwd = ELSE                
+line = 50      text = return                 rsvwd = RETURN              
+line = 50      text = n                         id = IDENTIFIER              name = n
+line = 50      text = *                         op = ASTERISK            
+line = 50      text = factorial                 id = IDENTIFIER              name = factorial
+line = 50      text = (                         op = LEFT_PAREN          
+line = 50      text = n                         id = IDENTIFIER              name = n
+line = 50      text = -                         op = MINUS               
+line = 50      text = 1                      number = NUMBER                 type =   SIGNED LONG           value = 1         
+line = 50      text = )                         op = RIGHT_PAREN         
+line = 50      text = ;                         op = SEMICOLON           
+line = 51      text = }                         op = RIGHT_CURLY         
+line = 53      text = void                   rsvwd = VOID                
+line = 53      text = optimization_demo         id = IDENTIFIER              name = optimization_demo
+line = 53      text = (                         op = LEFT_PAREN          
+line = 53      text = int                    rsvwd = INT                 
+line = 53      text = n                         id = IDENTIFIER              name = n
+line = 53      text = )                         op = RIGHT_PAREN         
+line = 54      text = {                         op = LEFT_CURLY          
+line = 55      text = int                    rsvwd = INT                 
+line = 55      text = m                         id = IDENTIFIER              name = m
+line = 55      text = ;                         op = SEMICOLON           
+line = 56      text = m                         id = IDENTIFIER              name = m
+line = 56      text = =                         op = EQUAL               
+line = 56      text = 10                     number = NUMBER                 type =   SIGNED LONG           value = 10        
+line = 56      text = +                         op = PLUS                
+line = 56      text = 20                     number = NUMBER                 type =   SIGNED LONG           value = 20        
+line = 56      text = -                         op = MINUS               
+line = 56      text = 40                     number = NUMBER                 type =   SIGNED LONG           value = 40        
+line = 56      text = /                         op = SLASH               
+line = 56      text = 50                     number = NUMBER                 type =   SIGNED LONG           value = 50        
+line = 56      text = ;                         op = SEMICOLON           
+line = 57      text = 30                     number = NUMBER                 type =   SIGNED LONG           value = 30        
+line = 57      text = +                         op = PLUS                
+line = 57      text = 50                     number = NUMBER                 type =   SIGNED LONG           value = 50        
+line = 57      text = +                         op = PLUS                
+line = 57      text = 60                     number = NUMBER                 type =   SIGNED LONG           value = 60        
+line = 57      text = ;                         op = SEMICOLON           
+line = 58      text = }                         op = RIGHT_CURLY         
+line = 60      text = void                   rsvwd = VOID                
+line = 60      text = auto_casting_demo         id = IDENTIFIER              name = auto_casting_demo
+line = 60      text = (                         op = LEFT_PAREN          
+line = 60      text = void                   rsvwd = VOID                
+line = 60      text = )                         op = RIGHT_PAREN         
+line = 61      text = {                         op = LEFT_CURLY          
+line = 62      text = int                    rsvwd = INT                 
+line = 62      text = p                         id = IDENTIFIER              name = p
+line = 62      text = ;                         op = SEMICOLON           
+line = 63      text = short                  rsvwd = SHORT               
+line = 63      text = m                         id = IDENTIFIER              name = m
+line = 63      text = ;                         op = SEMICOLON           
+line = 64      text = char                   rsvwd = CHAR                
+line = 64      text = k                         id = IDENTIFIER              name = k
+line = 64      text = ;                         op = SEMICOLON           
+line = 65      text = p                         id = IDENTIFIER              name = p
+line = 65      text = =                         op = EQUAL               
+line = 65      text = 10                     number = NUMBER                 type =   SIGNED LONG           value = 10        
+line = 65      text = ;                         op = SEMICOLON           
+line = 66      text = m                         id = IDENTIFIER              name = m
+line = 66      text = =                         op = EQUAL               
+line = 66      text = p                         id = IDENTIFIER              name = p
+line = 66      text = ;                         op = SEMICOLON           
+line = 67      text = k                         id = IDENTIFIER              name = k
+line = 67      text = =                         op = EQUAL               
+line = 67      text = m                         id = IDENTIFIER              name = m
+line = 67      text = ;                         op = SEMICOLON           
+line = 69      text = print_string              id = IDENTIFIER              name = print_string
+line = 69      text = (                         op = LEFT_PAREN          
+line = 69      text = "                      string = STRING                  length = 20, string = [10 32 73 110 116 32 118 97 108 117 101 32 115 116 111 114 101 100 58 0 ]
+line = 69      text = )                         op = RIGHT_PAREN         
+line = 69      text = ;                         op = SEMICOLON           
+line = 70      text = print_int                 id = IDENTIFIER              name = print_int
+line = 70      text = (                         op = LEFT_PAREN          
+line = 70      text = p                         id = IDENTIFIER              name = p
+line = 70      text = )                         op = RIGHT_PAREN         
+line = 70      text = ;                         op = SEMICOLON           
+line = 72      text = print_string              id = IDENTIFIER              name = print_string
+line = 72      text = (                         op = LEFT_PAREN          
+line = 72      text = "                      string = STRING                  length = 22, string = [10 32 115 104 111 114 116 32 118 97 108 117 101 32 115 116 111 114 101 100 58 0 ]
+line = 72      text = )                         op = RIGHT_PAREN         
+line = 72      text = ;                         op = SEMICOLON           
+line = 73      text = print_int                 id = IDENTIFIER              name = print_int
+line = 73      text = (                         op = LEFT_PAREN          
+line = 73      text = m                         id = IDENTIFIER              name = m
+line = 73      text = )                         op = RIGHT_PAREN         
+line = 73      text = ;                         op = SEMICOLON           
+line = 75      text = print_string              id = IDENTIFIER              name = print_string
+line = 75      text = (                         op = LEFT_PAREN          
+line = 75      text = "                      string = STRING                  length = 22, string = [10 32 67 104 97 114 32 118 97 108 117 101 32 115 116 111 114 101 100 58 32 0 ]
+line = 75      text = )                         op = RIGHT_PAREN         
+line = 75      text = ;                         op = SEMICOLON           
+line = 76      text = print_int                 id = IDENTIFIER              name = print_int
+line = 76      text = (                         op = LEFT_PAREN          
+line = 76      text = k                         id = IDENTIFIER              name = k
+line = 76      text = )                         op = RIGHT_PAREN         
+line = 76      text = ;                         op = SEMICOLON           
+line = 77      text = }                         op = RIGHT_CURLY         
