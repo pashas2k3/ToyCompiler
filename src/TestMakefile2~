@@ -1,3 +1,0 @@
-lex scanner.l
-gcc lex.yy.c -c 
-gcc -pedantic -Wall lex.yy.o scanner.c -lfl -o lexer
